@@ -1,0 +1,52 @@
+button{
+   background-color: aliceblue;
+}
+
+img{
+   border-radius: 10px;
+   height:190px;
+   width: 200px;
+}
+.doctor_pfp{
+   margin-top: 100px;
+   margin-left: 100px;
+   background-color: white;
+}
+#occ{
+   margin-left: 14rem;
+   margin-top: -8rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 20px;
+   color: blue;
+   margin-right: 20.5rem;
+   padding: 5px;
+   border-radius: 10px;
+}
+
+.doctor_pfp h2{
+   margin-left: 14rem;
+   font-size:larger;
+}
+
+.doctor_pfp h1{
+   margin-left: 14rem;
+   font-size:larger;   
+   margin-top: -13px;
+
+}
+
+.doctor_pfp p{
+   margin-left: 14rem;
+   font-size:larger;   
+}
+.doctor_pfp p1{
+   font-weight: lighter;
+}
+
+@media (max-width: 500px){
+   h1{
+      color: red;
+   }
+
+}

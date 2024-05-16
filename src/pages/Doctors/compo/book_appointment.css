@@ -1,0 +1,94 @@
+.book-appointment button {
+    padding: 10px;
+    background-color: rgb(112, 209, 233);
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}  
+
+.book-appointment button:hover{
+ background-color: #007bff
+}
+
+.book-appointment{
+    
+ 
+  background-color: azure;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+@media (min-width:500px) {
+    .book-appointment{
+        width: 300px;
+        height: 350px;
+        background-color: azure;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        margin-left: 56rem;
+        margin-top:-15rem;
+      }
+
+      .book-appointment button {
+        padding: 10px;
+        background-color: rgb(112, 209, 233);
+        border-radius: 10px;
+        font-size: medium;
+        font-weight: bold;
+        margin-top: 1rem;
+        margin-left:23px ;
+        width: 16rem;
+        border-color: azure;
+    }   
+
+    .book-appointment h3{
+        margin-left: 0rem;
+       padding: 10px;
+       background-color: rgb(172, 197, 243);
+    }
+    .book-appointment p1{
+        font-size: 25px;
+        font-weight: bolder;
+        margin-left: 6rem;
+        background-color: rgb(172, 197, 243);   
+    }
+
+    .book-appointment h2{
+        margin-left: 0rem;
+        background-color: azure;
+        padding: 10px;
+    }
+    .book-appointment p{
+        margin-left: 0rem;
+        background-color: azure;
+        padding: 10px;
+        font-weight: bolder;
+    }
+    .book-appointment t1{
+        background-color: azure;
+        margin-left: 66px;
+        font-weight: lighter;
+    }
+
+    .book-appointment t2{
+        background-color: azure;
+        margin-left: 61px;
+        font-weight: lighter;
+    }
+
+    .book-appointment t3{
+        background-color: azure;
+        margin-left:35px;
+        font-weight: lighter;
+    }
+
+    .appointment-page{
+        width: 300px;
+        height: 150px;
+        background-color: azure;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .appointment-page input{
+
+        margin-left: 5rem;
+    }
+}
